@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+/*header section*/
+.folio{
+    width: 100%;
+    position: fixed;
+    height: 4.5rem;
+    
+    background-color:black;
+    padding-top: 1.5%;
+    box-shadow: 1px 2px 15px rgb(100 100 100 / 30%);
+}
+.hed1 h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.hed2 a{
+    text-decoration:none;
+	font-weight: 600;
+    font-size: 1.3rem;
+    color:white;
+    padding: 10px;
+}
+.flexcondainer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
