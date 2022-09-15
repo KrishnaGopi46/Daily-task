@@ -165,8 +165,35 @@ body{
 	margin:auto;
 }
 .service-box{
- background-color:white;
+	background-color:white;
+	border-radius:0.8rem;
+	box-shadow:0px 0px 1px 0px rgb(0 0 0 / 6%),0px 0px 5px 0px rgb(0 0 0 / 15%);
+	padding:2.5rem 0;
 }
 .service-column{
-	width:30%;
+	width:33.33%;
+	padding:1rem;
+	height:auto;
+}
+.service-content h2{
+	font-size: 1.4rem;
+    text-align: center;
+    padding: 1.6rem 0;
+}
+.service-content p{
+	color: #4e4e4e;
+	text-align:center;
+	font-size:1.1rem;
+	padding:0 0 1rem 0;
+}
+/*icon*/
+.service-icon{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    border-radius: 50%;
+    line-height: 2.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
 }
