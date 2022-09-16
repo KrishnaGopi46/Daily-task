@@ -90,6 +90,7 @@ body{
 .column{
 	width:50%;
 }
+/*about info*/
 .about-me{
 	width:50%;
 }
@@ -133,6 +134,47 @@ body{
 	font-size:1.1rem;
 	color: #4e4e4e;
 }
+/*about skill*/
+.html{
+	background-color: #cde1f8;;
+	width: 90%;
+	height: 1.2rem;
+}
+.html div{
+	background-color:#0078ff;;
+	width: 75%;
+	height: 1.2rem;
+}
+.css{
+	background-color: #cde1f8;;
+	width: 90%;
+	height: 1.2rem;
+}
+.css div{
+	background-color:#0078ff;;
+	width: 65%;
+	height: 1.2rem;
+}
+.php{
+	background-color: #cde1f8;;
+	width: 90%;
+	height: 1.2rem;
+}
+.php div{
+	background-color:#0078ff;;
+	width: 40%;
+	height: 1.2rem;
+}
+.js{
+	background-color: #cde1f8;;
+	width: 90%;
+	height: 1.2rem;
+}
+.js div{
+	background-color:#0078ff;;
+	width: 80%;
+	height: 1.2rem;
+}
 /*service section*/
 /*service heading section*/
 .service{
@@ -162,12 +204,12 @@ body{
 	display:flex;
 	flex-wrap:wrap;
 	width:100%;
-	margin:auto;
+	margin-top:3rem;
 }
 .service-box{
 	background-color:white;
 	border-radius:0.8rem;
-	box-shadow:0px 0px 1px 0px rgb(0 0 0 / 6%),0px 0px 5px 0px rgb(0 0 0 / 15%);
+	box-shadow:0 13px 8px -10px rgb(0 0 0 / 10%);
 	padding:2.5rem 0;
 }
 .service-column{
@@ -196,4 +238,45 @@ body{
     margin: 0 auto;
     text-align: center;
     box-shadow: 0 0 0 10px #0078ff;
+}
+/*section-counter*/
+/*picture and overlay section*/
+.service-counter{
+    background:url("../image/counter.jpg") top center;
+	background-size:cover;
+	width:100%;
+	height:60vh;
+	position:relative;
+	padding:0;
+	background-attachment:fixed;
+}
+.counter-overlay{
+	background-color: #0078ff;
+	position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+/*counter-content section*/
+.counter-row{
+	display: flex;
+	z-index: 100;
+	position: relative;
+}
+.counter-column{
+	width: 25%;
+}
+.counter-ico i{
+	font-size: 2rem;
+	color: #fff;
+}
+.counter-num{
+	color: #fff;
+}
+.counter-num p{
+	font-size: 2rem;
+	align-items: center;
 }
