@@ -138,42 +138,48 @@ body{
 .html{
 	background-color: #cde1f8;;
 	width: 90%;
-	height: 1.2rem;
+	height: 0.8rem;
 }
 .html div{
 	background-color:#0078ff;;
 	width: 75%;
-	height: 1.2rem;
+	height: 0.8rem;
 }
 .css{
 	background-color: #cde1f8;;
 	width: 90%;
-	height: 1.2rem;
+	height: 0.8rem;
 }
 .css div{
 	background-color:#0078ff;;
 	width: 65%;
-	height: 1.2rem;
+	height: 0.8rem;
 }
 .php{
 	background-color: #cde1f8;;
 	width: 90%;
-	height: 1.2rem;
+	height: 0.8rem;
 }
 .php div{
 	background-color:#0078ff;;
 	width: 40%;
-	height: 1.2rem;
+	height: 0.8rem;
 }
 .js{
 	background-color: #cde1f8;;
 	width: 90%;
-	height: 1.2rem;
+	height: 0.8rem;
 }
 .js div{
 	background-color:#0078ff;;
 	width: 80%;
-	height: 1.2rem;
+	height: 0.8rem;
+}
+.about-skill p{
+	margin-top: 2rem;
+}
+.about-skill .html,.css,.php,.js{
+	margin-top: 0.6rem;
 }
 /*service section*/
 /*service heading section*/
@@ -265,6 +271,8 @@ body{
 	display: flex;
 	z-index: 100;
 	position: relative;
+	text-align: center;
+	padding-top: 10rem;
 }
 .counter-column{
 	width: 25%;
@@ -273,6 +281,15 @@ body{
 	font-size: 2rem;
 	color: #fff;
 }
+.counter-ico{
+	height: 60px;
+    width: 60px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #cde1f8;
+	border-radius: 50px;	
+    margin: 0 0 1rem 7rem;
+}
+
 .counter-num{
 	color: #fff;
 }
