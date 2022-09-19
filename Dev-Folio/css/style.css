@@ -113,7 +113,7 @@ body{
 	position:relative;
 	padding-bottom:3rem;
 }
-.title:before{
+.title::before{
 	content: "";
     position: absolute;
     height: 3px;
@@ -296,4 +296,87 @@ body{
 .counter-num p{
 	font-size: 2rem;
 	align-items: center;
+}
+/*protofolio section*/
+.protofolio{
+	margin-top: 4rem;
+}
+.protofolio-row{
+	width: 100%;
+	margin: auto;
+}
+.protofolio-col{
+	display: flex;
+	flex-wrap: wrap;
+	column-gap:2rem;
+	margin-top: 4rem;
+}
+.pro-col{
+	width: 31%;
+	height: auto;
+	background-color: white;
+	margin-bottom: 3rem;
+	box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.pro-img img{
+	width: 100%;
+}
+.pro-work{
+	display: flex;
+	padding: 2rem 0 1rem 1rem;
+}
+.pro-icon{
+	font-size: 2.5rem;
+	padding:1.5rem 0 0 5rem;
+}
+.pro-work span{
+	color: #0078ff;
+}
+.pro-work p{
+	color: #4e4e4e;
+	padding-top: 1rem;
+}
+.pro-work h2{
+	font-size: 2rem;
+
+}
+/*section-counter*/
+/*picture and overlay section*/
+.ser{
+    background:url("../image/overlay-bg.jpg") top center;
+	background-size:cover;
+	width:100%;
+	height:90vh;
+	position:relative;
+	padding:0;
+	background-attachment:fixed;
+}
+.service-overlay{
+	background-color: #0078ff;
+	position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.section-row{
+	z-index: 90px;
+	position: absolute;
+	text-align: center;
+	padding: 10rem 0 0 15rem;
+}
+.section-row img{
+	border-radius: 100px;
+}
+.section-row h2{
+	font-size: 1.5rem;
+	color: #f5f5f5;
+	margin-top: 1.5rem;
+}
+.section-row p{
+	font-size: 1.3rem;
+	color: #f5f5f5;
+	margin-top: 1.5rem;
 }
