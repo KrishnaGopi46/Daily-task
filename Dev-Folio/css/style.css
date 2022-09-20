@@ -269,7 +269,6 @@ body{
 /*counter-content section*/
 .counter-row{
 	display: flex;
-	z-index: 100;
 	position: relative;
 	text-align: center;
 	padding-top: 10rem;
@@ -345,7 +344,7 @@ body{
     background:url("../image/overlay-bg.jpg") top center;
 	background-size:cover;
 	width:100%;
-	height:90vh;
+	height:100vh;
 	position:relative;
 	padding:0;
 	background-attachment:fixed;
@@ -444,11 +443,19 @@ body{
 	margin-top:0.5rem;
 }
 /*message section*/
+.ser{
+	box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
 .contact-row{
 	display: flex;
 	justify-content: space-between;
-	position: absolute;
+	z-index: 2;
 	background-color: white;
+	margin-top: 5rem;
+	position: absolute;
+	width: 85%;
+	height: 35rem;
+	padding: 3rem 3rem ;
 }
 .message{
 	width: 50%;
@@ -470,10 +477,69 @@ body{
     bottom: 2.5rem;
 }
 /*message lay*/
-
+.message input{
+	margin-bottom: 1rem;
+    width: 30rem;
+    height: 3rem;
+    padding-left: 1rem;
+}
+.mes-message textarea{
+	padding: 12px 15px;
+}
+.mes-button{
+	text-align: center;
+	padding: 10px 24px;
+}
+.mes-button button{
+	font-size: 1.2rem;
+	color: white;
+	background-color: #0078ff;
+	border-color: #0078ff;
+	border-radius: 5rem;
+	padding: 0.9rem 2.3rem;
+}
 /*touch lay*/
 .message-para p{
 	font-size: 1.25rem;
     font-weight: 300;
 	color: #4e4e4e;
+	line-height: 1.7rem;
+	padding-bottom:2rem;
+}
+.message-icon{
+	list-style:none;
+	color: #4e4e4e;
+	font-size:1.1rem;
+}
+.message-icon span{
+	line-height: 2rem;
+	list-style:none;
+	color:#0078ff;
+	padding-right:1rem;
+}
+/*social icons*/
+.social ul{
+	display:flex;
+	list-style:none;
+	padding-top:2rem;
+	font-size:1.5rem;
+	letter-spacing:4rem;
+}
+.ico-circle{
+	box-shadow: 0 0 0 4px #0078ff;
+	width: 50px;
+    height: 50px;
+	border-radius:50%;	
+	margin-right:2rem;
+}
+.ico-circle i{
+	line-height:3rem;
+	padding-left:0.8rem;
+}
+/*footer*/
+.footer{
+	background: #0062d3;
+	text-align: center;
+    color: #fff;
+    padding: 25px 0;
 }
