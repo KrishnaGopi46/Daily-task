@@ -12,15 +12,16 @@
     background-color:white;
     position: fixed;
     z-index: 90;
-    top: 0;
     left: 0;
     right: 0%;
+    top: 0;
   
 }
 .head-logo{
     display: flex;
     justify-content: space-between;
     align-items:center;
+    padding: 15px 0;
 }
 .head-logo img{
     max-height: 40px;
@@ -39,7 +40,7 @@
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-attachment: fixed;
+    
     position:relative;
 }
 .social ul{
@@ -47,9 +48,61 @@
 	list-style:none;
 	padding-top:2rem;
 	font-size:1rem;
-	letter-spacing:2rem;
+	letter-spacing:1rem;
 }
 .hero-content{
-    margin: 20rem 0 0 9rem;
+    margin: 15rem 0 0 3rem;
     position:absolute;
+}
+.hero-content h1{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.hero-content p,i{
+    font-size: 1.2rem;
+    color: white;
+}
+/*about section*/
+.about{
+    background-color:#f7f7f7;
+    padding:9rem 0;
+    width: 100%;
+    height: auto;
+}
+.about-row{
+    display: flex;
+    width: 100%;
+}
+.about-col1{
+    width: 40%;
+}
+.about-img{
+   border: 1.3rem solid  #b8a07e;
+   background-color:#fefdfd;
+   height: 62vh;
+   width: 49vh;
+   box-shadow: 0px 0px 85px 0px rgb(0 0 0 / 14%);
+}
+.about-img img{
+    margin: -4rem 0 0 2.5rem;
+}
+.about-col2{
+   width: 60%;
+}
+.about-head p{
+    color: #999999;
+    font-size: 2rem;
+    line-height:1.9rem;
+    padding-bottom: 2rem;
+}
+.about-content p{
+    color: #999999;
+    font-size: 1.2rem;
+    width: 80%;
+    line-height: 1.9rem;
+}
+/*service section*/
+.service{
+    background-color: #7e7d7d;
 }
