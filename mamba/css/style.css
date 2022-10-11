@@ -206,14 +206,14 @@
 /*banner section*/
 @media(min-width:360px){
 .container{
-	width:80%;
+	width:85%;
 	margin:auto;
 }
 .banner{
 	background-image:url("../image/slide-2.jpg");
 	width:100%;
 	height:100vh;
-	background-size:cover;
+	background-position:top;
 	position:relative;
 }
 .banner::after{
@@ -267,7 +267,7 @@
 	background-image:url("../image/slide-2.jpg");
 	width:100%;
 	height:80vh;
-	background-size:cover;
+	background-position:top;
 	position:relative;
 }
 .banner::after{
@@ -288,23 +288,23 @@
 .banner-title h2{
   color: #fff;
   margin-bottom:2rem;
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: 900;
 }
 .banner-title p {
   font-size:1.2rem;
   color: #fff;
-  width:57%;
+  width:90%;
   margin-bottom:3rem;
   line-height:1.5rem;
-  text-align:justify;
+  text-align:;
 }
 .banner-button a{
 	text-decoration:none;
 	font-weight: 500;
     font-size: 1.1rem;
     letter-spacing:1px;
-    padding: 12px 32px;
+    padding: 9px 32px;
     border-radius: 5px;
     margin: 10px;
     color: #fff;
