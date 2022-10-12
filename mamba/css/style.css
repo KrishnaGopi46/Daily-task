@@ -1,6 +1,5 @@
-.container{
-    width:85%;
-    margin:auto;
+body{
+    font-family: "Open Sans", sans-serif;
 }
 *{
 	margin:0;
@@ -11,6 +10,10 @@
 }
 /*top bar*/
 @media (min-width:360px){
+	.container{
+		width:95%;
+		margin:auto;
+	}
     .topbar{
         background: #fff;
         border-bottom: 1px solid #eee;
@@ -21,18 +24,17 @@
     .top-head{
         display: flex;
         justify-content: center;
-        justify-content: space-between;
     }
     .top-icon1{
         display: flex;
     }
     .top-icon1 i{
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #428bca;
         padding: 5px;
     }
     .top-icon1 p{
-        font-size:1.1rem;
+        font-size:1rem;
         color:black ;
     }
     .top-icon2{
@@ -40,10 +42,10 @@
     }
     }
 @media (min-width:560px){
-    .container{
-        width: 90%;
-        margin: auto;
-    }
+	.container{
+		width:90%;
+		margin:auto;
+	}
     .topbar{
         background: #fff;
         border-bottom: 1px solid #eee;
@@ -57,7 +59,8 @@
         justify-content: space-between;
     }
     .top-icon1{
-        display: flex;
+		text-align:center;
+		margin-left:3rem;
     }
     .top-icon1 i{
         font-size: 1rem;
@@ -65,11 +68,12 @@
         padding: 5px;
     }
     .top-icon1 p{
-        font-size:1.1rem;
+        font-size:1rem;
         color:black ;
+		margin-left:1rem;
     }
     .top-icon2{
-        display: block;
+        display: none;
         letter-spacing: 1rem;
         font-size: 1rem;
         color: #5c768d;
@@ -79,6 +83,10 @@
     }
     }
 @media (min-width:992px){
+.container{
+    width:85%;
+    margin:auto;
+}
 .topbar{
     background: #fff;
     border-bottom: 1px solid #eee;
@@ -114,6 +122,10 @@
 }
 /*header section*/
 @media(min-width:360px){
+	.container{
+		width:95%;
+		margin:auto;
+	}
     .header{
         background-color: #fff;
         padding: 1rem 0;
@@ -146,6 +158,10 @@
     }
     }
 @media(min-width:560px){
+	.container{
+		width:90%;
+		margin:auto;
+	}
     .header{
         background-color: #fff;
         padding: 1.5rem 0;
@@ -172,6 +188,10 @@
     }
     }
 @media(min-width:992px){
+.container{
+    width:85%;
+    margin:auto;
+}
 .header{
     background-color: #fff;
     padding: 1.5rem 0;
@@ -206,13 +226,13 @@
 /*banner section*/
 @media(min-width:360px){
 .container{
-	width:85%;
+	width:95%;
 	margin:auto;
 }
 .banner{
 	background-image:url("../image/slide-2.jpg");
 	width:100%;
-	height:100vh;
+	height:80vh;
 	background-position:top;
 	position:relative;
 }
@@ -229,16 +249,16 @@
 .banner-title{
 	z-index:997;
 	position:relative;
-	padding:10rem 0;
+	padding:10rem 0 0 2rem;
 }
 .banner-title h2{
   color: #fff;
   margin-bottom:1.5rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 900;
 }
 .banner-title p {
-  font-size:1.2rem;
+  font-size:1rem;
   color: #fff;
   width:80%;
   margin-bottom:3rem;
@@ -248,9 +268,9 @@
 .banner-button a{
 	text-decoration:none;
 	font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     letter-spacing:1px;
-    padding: 9px 32px;
+    padding: 7px 30px;
     border-radius: 5px;
     margin: 10px;
     color: #fff;
@@ -263,6 +283,10 @@
 }
 }
 @media(min-width:560px){
+.container{
+    width:90%;
+    margin:auto;
+}
 .banner{
 	background-image:url("../image/slide-2.jpg");
 	width:100%;
@@ -292,7 +316,7 @@
   font-weight: 900;
 }
 .banner-title p {
-  font-size:1.2rem;
+  font-size:0.9rem;
   color: #fff;
   width:90%;
   margin-bottom:3rem;
@@ -302,9 +326,9 @@
 .banner-button a{
 	text-decoration:none;
 	font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing:1px;
-    padding: 9px 32px;
+    padding: 7px 28px;
     border-radius: 5px;
     margin: 10px;
     color: #fff;
@@ -317,6 +341,10 @@
 }
 }
 @media(min-width:992px){
+.container{
+    width:85%;
+    margin:auto;
+}
 .banner{
 	background-image:url("../image/slide-2.jpg");
 	width:100%;
@@ -348,7 +376,7 @@
 .banner-title p {
   font-size:1.2rem;
   color: #fff;
-  width:57%;
+  width:70%;
   margin-bottom:3rem;
   line-height:1.5rem;
   text-align:justify;
@@ -368,5 +396,235 @@
 .banner-button a:hover {
 	background-color:#1c5c93;
 	border:2px solid #1c5c93;
+}
+}
+/*about section*/
+@media(min-width:360px){
+    .container{
+		width:95%;
+		margin:auto;
+	}
+    .about-coloumn{
+        margin: 5rem 0;
+    }
+    .shadow{
+        box-shadow: 0 5px 25px 0 rgb(214 215 216 / 60%);
+    }
+    .about-row1{
+        padding: 0.5rem;
+    }
+    .about-row1 img{
+        width: 100%;
+    }
+    .about-head{
+        margin-bottom: 3rem;
+    }
+    .about-row2{
+        line-height: 1.2rem;
+        padding:5rem 0 5rem 0;
+    }
+    .about-row2 h1{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        color: #5c768d;
+    }
+    .about-head p{
+        margin-left: 3rem;
+        text-align: left;
+        width: 80%;
+        word-spacing: 0.5rem;
+        font-size: 1rem;
+        font-style: italic;
+        color: #666;
+    }
+    .about-content1{
+        margin-left: 3rem;
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .about-content2{
+        margin-left: 3rem;
+        display: flex;
+    }
+    .about-icon i{
+        color: #428bca;
+        font-size: 2rem;
+    }
+    .about-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 9rem;
+        height: 4.5rem;
+        background: #f1f7fb;
+        border-radius: 6px;
+    }
+    .icon-content{
+        padding-left:1.5rem;
+    }
+    .icon-content h2{
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #343a40;
+    }
+    .icon-content p{
+        text-decoration: none;
+        font-size: 1rem;
+        color: #666;
+		width:80%;
+    }
+    }
+@media(min-width:560px){
+	.container{
+		width:90%;
+		margin:auto;
+	}
+    .about-coloumn{
+        margin: 5rem 0;
+		display:flex;
+    }
+    .shadow{
+        box-shadow: 0 5px 25px 0 rgb(214 215 216 / 60%);
+    }
+    .about-row1{
+        padding: 0.5rem;
+    }
+    .about-row1 img{
+        width: 100%;
+    }
+    .about-head{
+        margin-bottom: 3rem;
+    }
+    .about-row2{
+        line-height: 1.2rem;
+        padding:5rem 3rem 5rem 0;
+    }
+    .about-row2 h1{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        color: #5c768d;
+    }
+    .about-head p{
+        width: 95%;
+        word-spacing: 0.5rem;
+        font-size: 1rem;
+        font-style: italic;
+        color: #666;
+    }
+    .about-content1{
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .about-content2{
+        display: flex;
+    }
+    .about-icon i{
+        color: #428bca;
+        font-size: 2rem;
+    }
+    .about-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 9rem;
+        height: 4.5rem;
+        background: #f1f7fb;
+        border-radius: 6px;
+    }
+    .icon-content{
+        padding-left:1.5rem;
+    }
+    .icon-content h2{
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #343a40;
+    }
+    .icon-content p{
+        text-decoration: none;
+        font-size: 1rem;
+        color: #666;
+    }
+    }
+@media(min-width:992px){
+.container{
+    width:85%;
+    margin:auto;
+}
+.about-coloumn{
+    display: flex;
+    gap: 3rem;
+    margin: 5rem 0;
+}
+.shadow{
+    box-shadow: 0 5px 25px 0 rgb(214 215 216 / 60%);
+}
+.about-row1{
+    width: 50%;
+    padding: 0.5rem;
+}
+.about-row1 img{
+    width: 100%;
+}
+.about-head{
+    margin-bottom: 3rem;
+}
+.about-row2{
+    line-height: 1.2rem;
+    width: 50%;
+    padding:5rem 3rem 5rem 0;
+}
+.about-row2 h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #5c768d;
+}
+.about-head p{
+    width: 95%;
+    word-spacing: 0.5rem;
+    font-size: 1rem;
+    font-style: italic;
+    color: #666;
+}
+.about-content1{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.about-content2{
+    display: flex;
+}
+.about-icon i{
+    color: #428bca;
+    font-size: 2rem;
+}
+.about-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 4.5rem;
+    background: #f1f7fb;
+    border-radius: 6px;
+}
+.icon-content{
+    padding-left:1.5rem;
+}
+.icon-content h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+.icon-content p{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #666;
 }
 }
