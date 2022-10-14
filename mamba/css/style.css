@@ -60,7 +60,7 @@ body{
     }
     .top-icon1{
 		text-align:center;
-		margin-left:3rem;
+		margin-left:0.6rem;
     }
     .top-icon1 i{
         font-size: 1rem;
@@ -74,10 +74,13 @@ body{
     }
     .top-icon2{
         display:block;
-        letter-spacing: 1rem;
+		
         font-size: 1rem;
         color: #5c768d;
     }
+	.top-icon2 i{
+		padding:3px;
+	}
     .top-icon2 i:hover{
         color:  #428bca;
     }
@@ -290,7 +293,7 @@ body{
 .banner{
 	background-image:url("../image/slide-2.jpg");
 	width:100%;
-	height:80vh;
+	height:100vh;
 	background-position:top;
 	position:relative;
 }
@@ -829,5 +832,198 @@ body{
 }
 .count-content p{
     font-size: 1rem;
+}
+}
+/*service section*/
+@media(min-width:360px){
+.service{
+    padding: 5rem 0;
+}
+.service-title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.service-title h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #5c768d;
+}
+.service-row{
+    justify-content: space-between;
+}
+.service-content{
+    text-align: center;
+    padding: 1rem;
+}
+.ser-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    color: #428bca;
+    box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
+}
+.ser-icon i{
+    font-size: 2rem;
+}
+.service-content:hover .ser-icon{
+    box-shadow:0px 0 25px blue;
+    transition: 2s;
+}
+.service-content h3{
+    color: #444;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.service-content h3::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #428bca;
+    margin: 0.7rem 0;
+    left: calc(50% - 25px);
+}
+.service-content p{
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
+}
+@media(min-width:560px){
+.service{
+    padding: 5rem 0;
+}
+.service-title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.service-title h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #5c768d;
+}
+.service-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-content{
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+}
+.ser-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    color: #428bca;
+    box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
+}
+.ser-icon i{
+    font-size: 2rem;
+}
+.service-content:hover .ser-icon{
+    box-shadow:0px 0 25px blue;
+    transition: 2s;
+}
+.service-content h3{
+    color: #444;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.service-content h3::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #428bca;
+    margin: 0.7rem 0;
+    left: calc(50% - 25px);
+}
+.service-content p{
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
+}
+@media(min-width:992px){
+.service{
+    padding: 5rem 0;
+}
+.service-title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.service-title h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #5c768d;
+}
+.service-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-content{
+    width: 33.33%;
+    text-align: center;
+    padding: 1rem;
+}
+.ser-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    color: #428bca;
+    box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
+}
+.ser-icon i{
+    font-size: 2rem;
+}
+.service-content:hover .ser-icon{
+    box-shadow:0px 0 25px blue;
+    transition: 2s;
+}
+.service-content h3{
+    color: #444;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.service-content h3::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #428bca;
+    margin: 0.7rem 0;
+    left: calc(50% - 25px);
+}
+.service-content p{
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    color: #aaaaaa;
 }
 }
