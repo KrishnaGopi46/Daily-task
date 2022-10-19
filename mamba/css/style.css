@@ -76,7 +76,7 @@ body{
         display:block;
 		
         font-size: 1rem;
-        color: #5c768d;
+        color: black;
     }
 	.top-icon2 i{
 		padding:3px;
@@ -1951,7 +1951,7 @@ body{
 	display:;
 	width:100%;
 }
-.footer-coloumn h1,p,i,h3{
+.footer-coloumn h1,p,h3{
 	color:#eee;
 }
 .footer-row1{
@@ -1989,6 +1989,7 @@ body{
 	margin:3rem 0;
 }
 .footer-row1 i{
+	color:#eee;
 	font-size: 1rem;
     display:flex;
     height: 2rem;
@@ -2029,7 +2030,7 @@ body{
 	flex-wrap:wrap;
 	width:100%;
 }
-.footer-coloumn h1,p,i,h3{
+.footer-coloumn h1,p,h3{
 	color:#eee;
 }
 .footer-row1{
@@ -2067,6 +2068,7 @@ body{
 	margin:3rem 0;
 }
 .footer-row1 i{
+	color:#eee;
 	font-size: 1rem;
     display:flex;
     height: 2rem;
@@ -2106,7 +2108,7 @@ body{
 	display:flex;
 	width:100%;
 }
-.footer-coloumn h1,p,i,h3{
+.footer-coloumn h1,p,h3{
 	color:#eee;
 }
 .footer-row1{
@@ -2144,6 +2146,7 @@ body{
 	margin:3rem 0;
 }
 .footer-row1 i{
+	color:#eee;
 	font-size: 1rem;
     display:flex;
     height: 2rem;
