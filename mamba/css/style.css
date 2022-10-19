@@ -452,11 +452,13 @@ body{
 	.shadow{
 		box-shadow: 0 5px 25px 0 rgb(214 215 216 / 60%);
 	}
-    .about-icon i{
-        color: #428bca;
-        font-size: 2rem;
-    }
+	.about-icon:hover{
+		background-color:#428bca;
+		color:white;
+	}
     .about-icon{
+		 color: #428bca;
+        font-size: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -528,11 +530,14 @@ body{
         display: flex;
 		margin:0;
     }
-    .about-icon i{
-        color: #428bca;
-        font-size: 2rem;
-    }
+   
+	.about-icon:hover{
+		background-color:#428bca;
+		color:white;
+	}
     .about-icon{
+		 color: #428bca;
+        font-size: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -607,11 +612,13 @@ body{
     display: flex;
 	margin:0;
 }
-.about-icon i{
-    color: #428bca;
-    font-size: 2rem;
+.about-icon:hover{
+	background-color:#428bca;
+	color:white;
 }
 .about-icon{
+	color: #428bca;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1370,10 +1377,18 @@ body{
 }
 .team-member1{
     width:100%; 
-    position: relative;   
+    position: relative;  	
+}
+.flow{
+	overflow:hidden;
 }
 .team-member1 img{
-    width: 100%;
+    width:100%;
+	transition:all 0.5s ease;
+}
+.team-member1 img:hover{
+	transform:scale(1.1);
+	
 }
 .member-content{
     position:absolute;
@@ -1723,6 +1738,12 @@ body{
 	padding:2rem;
 	margin-top:2rem;
 	box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+}
+input:focus{
+	outline:none;
+}
+textarea:focus{
+	outline:none;
 }
 .form-content{
 	width:100%;
